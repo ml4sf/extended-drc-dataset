@@ -1,0 +1,23 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+clf_lin	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^    clf_lin = svm.SVC( degree=3, gamma=0.20, class_weight=weights) $/;"	v	language:Python	class:Metrics
+COLS	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^COLS = ['E(LUMO-HOMO)_PM6[eV]', 'DipoleMoment [D]', 'IsotropicAverageAlpha [A.U.]', ' AverageGamma [A.U.]',  'INDOS-OscStr(CAS2-1)', 'CI-Coef**2(CAS2-1)', 'T1(CAS2-1) [eV]', 'nH', 'nN', 'nO', 'n5Ring', 'n6Ring', 'nHeteroRing', 'S1-2T1','S1-T1']$/;"	v	language:Python
+compute_metrics	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^    def compute_metrics(self, model, X_tst, Y_tst):$/;"	m	language:Python	class:Metrics
+get_data_train_tst	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^def get_data_train_tst(train_csv, tst_csv):$/;"	f	language:Python
+json	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^import json$/;"	i	language:Python
+m	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^    m = Metrics()$/;"	v	language:Python	class:Metrics
+matplotlib	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^import matplotlib.pyplot as plt$/;"	i	language:Python
+Metrics	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^class Metrics():$/;"	c	language:Python
+metrics	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^from sklearn import metrics$/;"	i	language:Python
+np	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^import numpy as np$/;"	i	language:Python
+pd	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^import pandas as pd$/;"	i	language:Python
+pickle	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^import pickle$/;"	i	language:Python
+plt	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^import matplotlib.pyplot as plt$/;"	i	language:Python
+StandardScaler	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^from sklearn.preprocessing import StandardScaler    $/;"	i	language:Python
+svm	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^from sklearn import svm$/;"	i	language:Python
+sys	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^import sys$/;"	i	language:Python
+TARGET	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^TARGET = 'newDRC(PUHF)'$/;"	v	language:Python
+train_test_split	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^from sklearn.model_selection import train_test_split$/;"	i	language:Python
+utils	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^from sklearn import utils$/;"	i	language:Python
+weights	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^    weights = {0:1.0, 1:4.0}$/;"	v	language:Python	class:Metrics
+__init__	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^    def __init__(self):$/;"	m	language:Python	class:Metrics
+__str__	/home/lborislavov/extended-drc-dataset/penSVM/binary_svm.py	/^    def __str__(self):$/;"	m	language:Python	class:Metrics	file:
